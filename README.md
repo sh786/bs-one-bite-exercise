@@ -5,4 +5,10 @@ Mini-exercise to mockup the One Bite site layout (nav and carousel).
 - App
   - Header
   - Restaurants
-    - RestaurantsCarousel(props: favoritesCategory) 
+    - RestaurantsCarousel(props: favoritesCategory)
+    
+## Running
+```
+npm install
+npm run start
+```
