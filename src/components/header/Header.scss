@@ -1,0 +1,125 @@
+.header-container {
+  background-color: #fae5ae;
+
+  .nav-bar-top {
+    display: flex;
+    align-items: center;
+    height: 5em;
+    width: 86%;
+    margin: 0 auto;
+    font-size: 0.9em;
+
+    .nav-bar-top-logo {
+      img {
+        max-width: 120px;
+      }
+    }
+
+    .nav-bar-top-list {
+      margin-left: auto;
+    }
+    
+    ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+
+      .nav-bar-top-links {
+        transition: ease all .4s;
+
+        .nav-bar-top-link {
+          color: #000;
+        }
+  
+        .selected {
+          font-weight: 700;
+          color: #df1717;
+        }
+  
+        li {
+          display: inline-block;
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+      }
+    }
+  }
+}
+
+// Outside of nest to use elsewhere in app (i.e. Footer)
+.download-button {
+  background-color: #fff;
+	color: #df1717;
+  border: none;
+  margin-left: 1em;
+	padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: .05em;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+@media screen and (max-width: 1030px) {
+  .header-container {
+    .nav-bar-top {
+      .nav-bar-top-list {
+        .nav-bar-top-links {
+          display: none;
+          position: absolute;
+          width: 100vw;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          flex: none;
+          background: #df1717;
+          z-index: 999;
+
+          .nav-bar-top-link {
+            display: block;
+            color: #fff;
+            padding-top: 2em;
+            padding-bottom: 2em;
+          }
+        }
+
+        .show-mobile {
+          display: block !important;
+        }
+
+        .mobile-menu-button {
+          display: inline-block;
+          background: none;
+          color: #000;
+          border: none;
+          padding-left: 1.5em;
+          padding-right: 1.5em;
+          font: inherit;
+          cursor: pointer;
+          outline: inherit;
+          font-size: 1.6em;
+          font-weight: 600;
+          letter-spacing: .05em;
+        }
+
+        .mobile-close {
+          position: absolute;
+          color: #fff;
+          top: 0.1em;
+          left: 0.3em;
+          font-size: 3em;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
