@@ -40,7 +40,6 @@ const App = () => {
               exact
               render={() => <Restaurants loc={userLoc} />}
             />
-            <Route render={() => <p>No route matched.</p>} />
           </React.Fragment>
         ) : (
           <p>Loading user location...</p>
