@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import Restaurants from './components/restaurants/Restaurants';
 import Header from './components/header/Header';
@@ -31,12 +31,11 @@ const App = () => {
 
   return (
     <div className='App'>
-      <BrowserRouter>
+      <HashRouter basename='/'>
         <Header />
         {isUserLocLoaded ? (
           <Switch>
             <Redirect from='/' to='/restaurants' />
-            <Redirect from='/bs-one-bite-exercise' to='/restaurants' />
             <Route
               path={['/restaurants', '/restaurants/:category']}
               exact
@@ -47,7 +46,7 @@ const App = () => {
         ) : (
           <p>Loading user location...</p>
         )}
-      </BrowserRouter>
+      </Ha>
     </div>
   );
 };
