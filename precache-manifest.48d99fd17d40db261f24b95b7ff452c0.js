@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8f0d7aba70d3e45edd7e2adeabc81d7",
+    "revision": "8a2049fb98b2a61b73d3d2f8a8fcef72",
     "url": "/bs-one-bite-exercise/index.html"
   },
   {
-    "revision": "9efe95446ae3146d969b",
+    "revision": "abe358186c6198dd04bf",
     "url": "/bs-one-bite-exercise/static/css/main.54390dc3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bs-one-bite-exercise/static/js/2.ff06d784.chunk.js"
   },
   {
-    "revision": "9efe95446ae3146d969b",
-    "url": "/bs-one-bite-exercise/static/js/main.30bf2409.chunk.js"
+    "revision": "abe358186c6198dd04bf",
+    "url": "/bs-one-bite-exercise/static/js/main.9b552b42.chunk.js"
   },
   {
     "revision": "9cc3c7d5c1fd568f93e9",

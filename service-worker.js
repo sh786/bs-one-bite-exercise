@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bs-one-bite-exercise/precache-manifest.2bbb0ad56fb9e4736f885d79225829b9.js"
+  "/bs-one-bite-exercise/precache-manifest.48d99fd17d40db261f24b95b7ff452c0.js"
 );
 
 self.addEventListener('message', (event) => {
