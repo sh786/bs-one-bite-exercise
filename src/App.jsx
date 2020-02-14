@@ -35,7 +35,8 @@ const App = () => {
         <Header />
         {isUserLocLoaded ? (
           <Switch>
-            <Redirect from={process.env.PUBLIC_URL + '/'} to='/restaurants' />
+            <Redirect from='/' to='/restaurants' />
+            <Redirect from='/bs-one-bite-exercise' to='/restaurants' />
             <Route
               path={['/restaurants', '/restaurants/:category']}
               exact
