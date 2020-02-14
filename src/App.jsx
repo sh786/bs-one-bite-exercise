@@ -35,9 +35,8 @@ const App = () => {
         <Header />
         {isUserLocLoaded ? (
           <Switch>
-            <Redirect from='/' to='/restaurants' />
             <Route
-              path={['/restaurants', '/restaurants/:category']}
+              path={['/', '/restaurants', '/restaurants/:category']}
               exact
               render={() => <Restaurants loc={userLoc} />}
             />
