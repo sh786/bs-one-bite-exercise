@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-import Restaurants from "./components/restaurants/Restaurants";
-import Header from "./components/header/Header";
+import Restaurants from './components/restaurants/Restaurants';
+import Header from './components/header/Header';
 
 const App = () => {
   // At this level, we would likely want to fetch user's loc data
@@ -14,7 +14,7 @@ const App = () => {
 
   const mockLoc = {
     lat: 40.74,
-    lon: -73.98
+    lon: -73.98,
   };
 
   useEffect(() => {
@@ -30,14 +30,14 @@ const App = () => {
   }, [mockLoc]);
 
   return (
-    <div className="App">
+    <div className='App'>
       <BrowserRouter>
         <Header />
         {isUserLocLoaded ? (
           <Switch>
-            <Redirect exact from="/" to="/restaurants" />
+            <Redirect from='/' to='/restaurants' />
             <Route
-              path={["/restaurants", "/restaurants/:category"]}
+              path={['/restaurants', '/restaurants/:category']}
               exact
               render={() => <Restaurants loc={userLoc} />}
             />
