@@ -46,7 +46,7 @@ const App = () => {
         ) : (
           <p>Loading user location...</p>
         )}
-      </Ha>
+      </HashRouter>
     </div>
   );
 };
