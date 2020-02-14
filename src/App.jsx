@@ -34,14 +34,14 @@ const App = () => {
       <HashRouter basename='/'>
         <Header />
         {isUserLocLoaded ? (
-          <Switch>
+          <React.Fragment>
             <Route
               path={['/', '/restaurants', '/restaurants/:category']}
               exact
               render={() => <Restaurants loc={userLoc} />}
             />
             <Route render={() => <p>No route matched.</p>} />
-          </Switch>
+          </React.Fragment>
         ) : (
           <p>Loading user location...</p>
         )}
