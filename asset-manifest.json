@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bs-one-bite-exercise/static/css/main.54390dc3.chunk.css",
-    "main.js": "/bs-one-bite-exercise/static/js/main.c180f157.chunk.js",
-    "main.js.map": "/bs-one-bite-exercise/static/js/main.c180f157.chunk.js.map",
+    "main.js": "/bs-one-bite-exercise/static/js/main.09b360d9.chunk.js",
+    "main.js.map": "/bs-one-bite-exercise/static/js/main.09b360d9.chunk.js.map",
     "runtime~main.js": "/bs-one-bite-exercise/static/js/runtime~main.1c1990f9.js",
     "runtime~main.js.map": "/bs-one-bite-exercise/static/js/runtime~main.1c1990f9.js.map",
-    "static/js/2.ff06d784.chunk.js": "/bs-one-bite-exercise/static/js/2.ff06d784.chunk.js",
-    "static/js/2.ff06d784.chunk.js.map": "/bs-one-bite-exercise/static/js/2.ff06d784.chunk.js.map",
+    "static/js/2.dc24e1fb.chunk.js": "/bs-one-bite-exercise/static/js/2.dc24e1fb.chunk.js",
+    "static/js/2.dc24e1fb.chunk.js.map": "/bs-one-bite-exercise/static/js/2.dc24e1fb.chunk.js.map",
     "index.html": "/bs-one-bite-exercise/index.html",
-    "precache-manifest.21b713bef1335d1f582ec35ff75fa027.js": "/bs-one-bite-exercise/precache-manifest.21b713bef1335d1f582ec35ff75fa027.js",
+    "precache-manifest.2cb123d1a45116d0a999795fcbdbe8fd.js": "/bs-one-bite-exercise/precache-manifest.2cb123d1a45116d0a999795fcbdbe8fd.js",
     "service-worker.js": "/bs-one-bite-exercise/service-worker.js",
     "static/css/main.54390dc3.chunk.css.map": "/bs-one-bite-exercise/static/css/main.54390dc3.chunk.css.map"
   }
